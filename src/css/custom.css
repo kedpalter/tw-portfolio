@@ -55,3 +55,24 @@
     }
     
 }
+/* .available .container::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.502);
+    z-index: 5;
+} */
+.avail-cards .item::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    top: 0;
+    left: 0;
+    border: solid red 1px;
+    /* background: #000000e0; */
+}
