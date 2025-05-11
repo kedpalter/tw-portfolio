@@ -1,3 +1,24 @@
 /* Khi code -> code css ở folder tailwind, khi sử dụng thì sử dụng tại folder css */
 @import "tailwindcss";
 @config "../../tailwind.config.js"; /* Config tailwind để custom cấu hình */
+
+* {
+    font-family: "Roboto", sans-serif !important;
+}
+/* Adding Custom Style */
+@layer base {
+
+}
+@layer components {
+    .btn {
+        @apply text-base px-2 py-4 bg-green-500 font-light rounded-xl
+    }
+}
+@layer utilities {
+    .fw-bold {
+        font-weight: bold;
+    }
+    .box-shadow {
+        box-shadow: -5px 2px 35px 20px rgba(135, 135, 135, 1);
+    }
+}

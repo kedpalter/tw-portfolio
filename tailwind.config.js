@@ -17,5 +17,7 @@ module.exports = {
       },
     },
     plugins: [require("tw-elements/plugin.cjs")],
+    // thêm class="dark" trong thẻ HTML (land="en" class="dark") để kích hoạt thuộc tính darkmodez
+    // darkMode: "class" dùng cho trường hợp nhấn nút chuyển theme, darkMode: "media" dùng cho trường hợp chạy darkMode theo trình duyệt hoặc theo setting window
     darkMode: "class"
   };

@@ -327,9 +327,44 @@
       </div>
     </div>
   </section>
-  <section class="achivement"></section>
-  <footer class="footer"></footer>
+  <section class="achivement bg-[url(/src/img/memphis_3.png)]">
+    <div class="container flex">
+      <div class="awardCard">
+        <h1>Our Achivement and Award</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quam!</p>
+      </div>
+      <div class="brands">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit iure provident magni necessitatibus culpa esse.</p>
+        <div class="brandLogo flex">
+          <img src="./img/award-1.png" alt="">
+          <img src="./img/award-2.png" alt="">
+          <img src="./img/award-3.png" alt="">
+          <img src="./img/award-4.png" alt="">
+          <img src="./img/award-5.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="social">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-google-plus-g"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+      <hr>
+      <p>© 2021 CyberPortfolio. All rights reserved | Design by CyberSoft</p>
+    </div>
+  </footer>
   <script src="/node_modules/tw-elements/js/tw-elements.umd.min.js"></script>
+  <script>
+    function changeTheme() {
+      //Truy xuất đến thẻ html để thêm class dark hoặc bỏ class dark
+      document.documentElement.classList.toggle = 'dark';
+    }
+  </script>
 </body>
 
 </html>
