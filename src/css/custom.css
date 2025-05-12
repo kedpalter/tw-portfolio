@@ -16,7 +16,10 @@
     width: 80%;
     transition: all 0.5s;
 }
-
+.container {
+    width: 1300px;
+    margin: auto;
+}
 .carusel [data-twe-carousel-item]::after {
     content: "";
     position: absolute;
@@ -55,15 +58,12 @@
     }
     
 }
-/* .available .container::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.502);
-    z-index: 5;
+
+.available .overlay {
+    background: rgba(7, 10, 12, .72);
+}
+/* .avail-cards .item:hover {
+    border: solid red 1px;
 } */
 .avail-cards .item::after {
     content: "";
@@ -73,6 +73,5 @@
     border-radius: inherit;
     top: 0;
     left: 0;
-    border: solid red 1px;
     /* background: #000000e0; */
 }
